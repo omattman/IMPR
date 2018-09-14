@@ -1,0 +1,3 @@
+C:/AAU/IMPR02/O2_6_ErfaringerMedScanf/cmake-build-debug/CMakeFiles/O2_6_ErfaringerMedScanf.dir
+C:/AAU/IMPR02/O2_6_ErfaringerMedScanf/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/AAU/IMPR02/O2_6_ErfaringerMedScanf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
