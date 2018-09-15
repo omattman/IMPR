@@ -9,11 +9,11 @@ int main(void) {
 
   // Initialize variables
   int amountInput,
-    amountWeeks,
-    amountDays,
-    amountHours,
-    amountMinutes,
-    amountSeconds;
+      amountWeeks,
+      amountDays,
+      amountHours,
+      amountMinutes,
+      amountSeconds;
 
   // Prompt user for random number
   // Assign value to variable

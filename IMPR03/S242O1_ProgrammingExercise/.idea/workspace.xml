@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="AO1" targetName="AO1" />
+      <config projectName="S242O1_ProgrammingExercise" targetName="S242O1_ProgrammingExercise" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,10 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7dbf70a-df3a-4341-ba1a-f68a394ba032" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IMPR03/S205O7_SelfCheck/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IMPR03/S205O7_SelfCheck/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="05b20009-4757-4c78-b9ea-8e3cb266c711" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../S243O2_ProgrammingExercise_2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../S243O2_ProgrammingExercise_2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO1/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO1/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../S205O7_SelfCheck/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../S205O7_SelfCheck/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,26 +27,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="-29039266">
+    <session id="54695885">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="1" />
-          <entry key="txt" value="14" />
+          <entry key="c" value="703" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="ObjectiveC" value="703" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="192">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -68,7 +66,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,17 +93,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AO1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AO1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -128,20 +116,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AO1">
-    <configuration name="AO1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AO1" TARGET_NAME="AO1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AO1" RUN_TARGET_NAME="AO1">
+  <component name="RunManager" selected="Application.S242O1_ProgrammingExercise">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="S242O1_ProgrammingExercise" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S242O1_ProgrammingExercise" TARGET_NAME="S242O1_ProgrammingExercise" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="S242O1_ProgrammingExercise" RUN_TARGET_NAME="S242O1_ProgrammingExercise">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.AO1" />
+      <item itemvalue="Application.S242O1_ProgrammingExercise" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -149,33 +137,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e7dbf70a-df3a-4341-ba1a-f68a394ba032" name="Default Changelist" comment="" />
-      <created>1536960089352</created>
+      <changelist id="05b20009-4757-4c78-b9ea-8e3cb266c711" name="Default Changelist" comment="" />
+      <created>1536992316569</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536960089352</updated>
-      <workItem from="1536960090690" duration="301000" />
-      <workItem from="1536962474459" duration="906000" />
-      <workItem from="1536990932821" duration="1022000" />
+      <updated>1536992316569</updated>
+      <workItem from="1536992318015" duration="831000" />
+      <workItem from="1536994018598" duration="205000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <created>1536960208174</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1536960208174</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2229000" />
+    <option name="totallyTimeSpent" value="1036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -203,18 +182,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="192">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>

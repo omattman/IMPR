@@ -24,6 +24,7 @@
     <session id="-1843526042">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -114,6 +115,9 @@
       <item itemvalue="Application.S205O7_SelfCheck" />
     </list>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b79fbd24-4afa-47f0-8224-3a0560d2b8e8" name="Default Changelist" comment="" />
@@ -121,12 +125,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536962543059</updated>
-      <workItem from="1536962544742" duration="251000" />
+      <workItem from="1536962544742" duration="831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251000" />
+    <option name="totallyTimeSpent" value="831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

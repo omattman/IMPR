@@ -1,0 +1,3 @@
+C:/AAU/IMPR03/S242O1_ProgrammingExercise/cmake-build-debug/CMakeFiles/S242O1_ProgrammingExercise.dir
+C:/AAU/IMPR03/S242O1_ProgrammingExercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/AAU/IMPR03/S242O1_ProgrammingExercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
