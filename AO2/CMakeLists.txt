@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
-project(AO1 C)
+project(AO2 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(AO1 main.c)
+add_executable(AO2 main.c)

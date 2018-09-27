@@ -49,10 +49,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -64,39 +64,39 @@ CMAKE_SOURCE_DIR = C:\AAU\IMPR\AO2
 CMAKE_BINARY_DIR = C:\AAU\IMPR\AO2\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/AO1.dir
+# Target rules for target CMakeFiles/AO2.dir
 
 # All Build rule for target.
-CMakeFiles/AO1.dir/all:
-	$(MAKE) -f CMakeFiles\AO1.dir\build.make CMakeFiles/AO1.dir/depend
-	$(MAKE) -f CMakeFiles\AO1.dir\build.make CMakeFiles/AO1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AAU\IMPR\AO2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target AO1"
-.PHONY : CMakeFiles/AO1.dir/all
+CMakeFiles/AO2.dir/all:
+	$(MAKE) -f CMakeFiles\AO2.dir\build.make CMakeFiles/AO2.dir/depend
+	$(MAKE) -f CMakeFiles\AO2.dir\build.make CMakeFiles/AO2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AAU\IMPR\AO2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target AO2"
+.PHONY : CMakeFiles/AO2.dir/all
 
 # Include target in all.
-all: CMakeFiles/AO1.dir/all
+all: CMakeFiles/AO2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/AO1.dir/rule: cmake_check_build_system
+CMakeFiles/AO2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\AAU\IMPR\AO2\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/AO1.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/AO2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\AAU\IMPR\AO2\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/AO1.dir/rule
+.PHONY : CMakeFiles/AO2.dir/rule
 
 # Convenience name for target.
-AO1: CMakeFiles/AO1.dir/rule
+AO2: CMakeFiles/AO2.dir/rule
 
-.PHONY : AO1
-
-# clean rule for target.
-CMakeFiles/AO1.dir/clean:
-	$(MAKE) -f CMakeFiles\AO1.dir\build.make CMakeFiles/AO1.dir/clean
-.PHONY : CMakeFiles/AO1.dir/clean
+.PHONY : AO2
 
 # clean rule for target.
-clean: CMakeFiles/AO1.dir/clean
+CMakeFiles/AO2.dir/clean:
+	$(MAKE) -f CMakeFiles\AO2.dir\build.make CMakeFiles/AO2.dir/clean
+.PHONY : CMakeFiles/AO2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/AO2.dir/clean
 
 .PHONY : clean
 

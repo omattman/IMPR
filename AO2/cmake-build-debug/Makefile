@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\AAU\IMPR\AO2\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named AO1
+# Target rules for targets named AO2
 
 # Build rule for target.
-AO1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 AO1
-.PHONY : AO1
+AO2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 AO2
+.PHONY : AO2
 
 # fast build rule for target.
-AO1/fast:
-	$(MAKE) -f CMakeFiles\AO1.dir\build.make CMakeFiles/AO1.dir/build
-.PHONY : AO1/fast
+AO2/fast:
+	$(MAKE) -f CMakeFiles\AO2.dir\build.make CMakeFiles/AO2.dir/build
+.PHONY : AO2/fast
 
 main.obj: main.c.obj
 
@@ -128,7 +128,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\AO1.dir\build.make CMakeFiles/AO1.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\AO2.dir\build.make CMakeFiles/AO2.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -137,7 +137,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\AO1.dir\build.make CMakeFiles/AO1.dir/main.c.i
+	$(MAKE) -f CMakeFiles\AO2.dir\build.make CMakeFiles/AO2.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -146,7 +146,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\AO1.dir\build.make CMakeFiles/AO1.dir/main.c.s
+	$(MAKE) -f CMakeFiles\AO2.dir\build.make CMakeFiles/AO2.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -155,8 +155,8 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... AO2
 	@echo ... edit_cache
-	@echo ... AO1
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
