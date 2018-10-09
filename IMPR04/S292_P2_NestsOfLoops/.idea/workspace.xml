@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="S267_O3_SelfCheck" targetName="S267_O3_SelfCheck" />
+      <config projectName="S292_P2_NestsOfLoops" targetName="S292_P2_NestsOfLoops" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975770f6-8754-42cb-8e98-8e3965b7c38a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ec3a790b-1800-47be-89aa-a9de8bee47fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../S267_O3_SelfCheck/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../S267_O3_SelfCheck/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,23 +23,23 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="1720118042">
+    <session id="-269984343">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="498" />
+          <entry key="c" value="804" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="498" />
+          <entry key="ObjectiveC" value="804" />
         </counts>
       </usages-collector>
     </session>
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="840">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -79,7 +79,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1823" />
     <option name="height" value="1399" />
   </component>
@@ -95,6 +95,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -111,20 +112,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.S267_O3_SelfCheck">
+  <component name="RunManager" selected="Application.S292_P2_NestsOfLoops">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S267_O3_SelfCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S267_O3_SelfCheck" TARGET_NAME="S267_O3_SelfCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="S267_O3_SelfCheck" RUN_TARGET_NAME="S267_O3_SelfCheck">
+    <configuration name="S292_P2_NestsOfLoops" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S292_P2_NestsOfLoops" TARGET_NAME="S292_P2_NestsOfLoops" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="S292_P2_NestsOfLoops" RUN_TARGET_NAME="S292_P2_NestsOfLoops">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.S267_O3_SelfCheck" />
+      <item itemvalue="Application.S292_P2_NestsOfLoops" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -132,24 +133,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="975770f6-8754-42cb-8e98-8e3965b7c38a" name="Default Changelist" comment="" />
-      <created>1538423586532</created>
+      <changelist id="ec3a790b-1800-47be-89aa-a9de8bee47fe" name="Default Changelist" comment="" />
+      <created>1538486299598</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1538423586532</updated>
-      <workItem from="1538423588108" duration="1292000" />
-      <workItem from="1538474874089" duration="978000" />
+      <updated>1538486299598</updated>
+      <workItem from="1538486301185" duration="3246000" />
+      <workItem from="1538491648177" duration="865000" />
+      <workItem from="1538506689818" duration="395000" />
+      <workItem from="1539102064082" duration="48000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2270000" />
+    <option name="totallyTimeSpent" value="4554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1823" height="1399" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1823" height="1399" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25241065" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2580828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -183,8 +185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="840">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
         </state>
       </provider>
     </entry>
