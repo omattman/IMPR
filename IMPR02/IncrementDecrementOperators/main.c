@@ -36,6 +36,7 @@
  *  i = 1;
  *  j = i++;
  *  (i is 2, j is 1;
+ *  I et for loop vil postprefix køre loopet flere gange, da det skal bruge flere loops på at increment værdien korrekt.
  *
  *  source: @https://stackoverflow.com/questions/24853/what-is-the-difference-between-i-and-i
  */
