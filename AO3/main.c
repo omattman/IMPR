@@ -1,37 +1,40 @@
 #include <stdio.h>
 
-// Prototype for euclidGCD function to let the program know it exists.
-int euclidGCD(int, int);
+// Prototype for gcdExtended function to let the program know it exists.
+int gcdExtended(int, int, int *, int *);
 
 int main(void) {
-
-  // Declare variables
-  int integerOne, integerTwo, j, i;
+  int a, b, x, y, integerOne, integerTwo;
 
   do {
     printf("Enter two positive integer numbers: ");
-    scanf("%d %d", &i, &j);
-  } while (i < 0 || j < 0);
+    scanf("%d %d", &a, &b);
+  } while (a < 0 || b < 0);
 
-  integerOne = i <= j ? i : j;
-  integerTwo = i <= j ? j : i;
+  integerOne = a <= b ? a : b;
+  integerTwo = a <= b ? b : a;
 
-  printf ("GCD of %d and %d is %d\n\n", i, j, euclidGCD(integerOne, integerTwo));
-
+  while(integerOne != 0) {
+    printf("gcd(%d, %d) = %d\n", integerOne, b, gcdExtended(integerOne, integerTwo, &x, &y));
+    integerOne -= 1;
+  }
   return 0;
 }
 
-// GCD of two numbers using Euclid's algorithm
-int euclidGCD(int integerOne, int integerTwo) {
-
-  // Declare variables
-  int remainder;
-
-  while (integerOne > 0) {
-    remainder = integerTwo % integerOne;
-    integerTwo = integerOne;
-    integerOne = remainder;
+// Extended Euclidean Algorithm
+int gcdExtended(int a, int b, int *x, int *y) {
+  if (a == 0) {
+    *x = 0;
+    *y = 1;
+    return b;
   }
 
-  return integerTwo;
+  int x1, y1; // To store results of recursive call
+  int gcd = gcdExtended(b%a, a, &x1, &y1);
+
+  // Update x and y using results of recursive call
+  *x = y1 - (b/a) * x1;
+  *y = x1;
+
+  return gcd;
 }
