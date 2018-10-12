@@ -1,3 +1,0 @@
-C:/AAU/IMPR/IMPR05/S143_O1_SelfCheck_RewriteMath/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/AAU/IMPR/IMPR05/S143_O1_SelfCheck_RewriteMath/cmake-build-debug/CMakeFiles/S143_O1_SelfCheck_RewriteMath.dir
-C:/AAU/IMPR/IMPR05/S143_O1_SelfCheck_RewriteMath/cmake-build-debug/CMakeFiles/edit_cache.dir
