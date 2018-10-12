@@ -1,42 +1,25 @@
 #include <stdio.h>
 
-// Prototype for gcdExtended function to let the program know it exists.
-int gcdExtended(int, int, int *, int *);
-
-// Main function
 int main(void) {
-  int a, b, x, y, integerOne, integerTwo;
+  int i, j, small, large, remainder;
 
-  do {
-    printf("Enter two positive integer numbers: ");
-    scanf("%d %d", &a, &b);
-  } while (a < 0 || b < 0);
+  while (1) {
+    printf("Enter two non-negative integers:\n ");
+    scanf("%d %d", &i, &j);
 
-integerOne = a <= b ? a : b;
-integerTwo = a <= b ? b : a;
+    if (i <= 0 || j <= 0) {
+      return 0;
+    }
 
-  while(integerOne != 0) {
-    printf("The greatest common divisor of %d and %d is %d\n", integerOne, b, gcdExtended(integerOne, integerTwo, &x, &y));
-    integerOne -= 1;
+    small = i <= j ? i : j;
+    large = i <= j ? j : i;
+
+    while (small > 0) {
+      remainder = large % small;
+      large = small;
+      small = remainder;
+    }
+
+    printf("GCD of %d and %d is %d\n\n", i, j, large);
   }
-
-  return 0;
-}
-
-// Extended Euclidean Algorithm
-int gcdExtended(int a, int b, int *x, int *y) {
-  if (a == 0) {
-    *x = 0;
-    *y = 1;
-    return b;
-  }
-
-  int x1, y1; // To store results of recursive call
-  int gcd = gcdExtended(b%a, a, &x1, &y1);
-
-  // Update x and y using results of recursive call
-  *x = y1 - (b/a) * x1;
-  *y = x1;
-
-  return gcd;
 }
