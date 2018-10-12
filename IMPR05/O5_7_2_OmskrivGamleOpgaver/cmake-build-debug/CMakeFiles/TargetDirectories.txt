@@ -1,0 +1,3 @@
+C:/AAU/IMPR/IMPR05/O5_7_2_OmskrivGamleOpgaver/cmake-build-debug/CMakeFiles/O5_7_2_OmskrivGamleOpgaver.dir
+C:/AAU/IMPR/IMPR05/O5_7_2_OmskrivGamleOpgaver/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/AAU/IMPR/IMPR05/O5_7_2_OmskrivGamleOpgaver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
