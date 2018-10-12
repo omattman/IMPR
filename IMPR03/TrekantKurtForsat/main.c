@@ -6,12 +6,12 @@
 
 int main (void){
   double p1_x = 0.0, p1_y = 0.0,
-         p2_x = 0.0, p2_y = 0.0,
-         p3_x = 0.0, p3_y = 0.0,
-         length_p1_p2 = 0.0,
-         length_p2_p3 = 0.0, length_p3_p1 = 0.0,
-         circumference = 0.0,
-         hc = 0.0, area = 0.0;
+      p2_x = 0.0, p2_y = 0.0,
+      p3_x = 0.0, p3_y = 0.0,
+      length_p1_p2 = 0.0,
+      length_p2_p3 = 0.0, length_p3_p1 = 0.0,
+      circumference = 0.0,
+      hc = 0.0, area = 0.0;
 
   int choice = 0,
       is_triangle = 0;

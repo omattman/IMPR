@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\O4_2_DividerbareMedSammeTal.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\O4_2_DividerbareMedSammeTal.dir/objects.a @CMakeFiles\O4_2_DividerbareMedSammeTal.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\O4_2_DividerbareMedSammeTal.dir/objects.a -Wl,--no-whole-archive  -o O4_2_DividerbareMedSammeTal.exe -Wl,--out-implib,libO4_2_DividerbareMedSammeTal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\O4_2_DividerbareMedSammeTal.dir\linklibs.rsp

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ExampleProgramKurt.dir/main.c.obj"
+  "CMakeFiles/ExampleProgramKurt.dir/functions.c.obj"
   "ExampleProgramKurt.pdb"
   "ExampleProgramKurt.exe"
   "ExampleProgramKurt.exe.manifest"

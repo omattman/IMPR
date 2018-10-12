@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/AAU/IMPR/IMPR03/TrekantKurtForsat/functions.c">
+			<Option target="ExampleProgramKurt"/>
+		</Unit>
 		<Unit filename="C:/AAU/IMPR/IMPR03/TrekantKurtForsat/main.c">
 			<Option target="ExampleProgramKurt"/>
 		</Unit>

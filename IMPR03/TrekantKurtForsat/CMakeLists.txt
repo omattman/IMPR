@@ -3,4 +3,4 @@ project(ExampleProgramKurt C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ExampleProgramKurt main.c)
+add_executable(ExampleProgramKurt main.c functions.c)

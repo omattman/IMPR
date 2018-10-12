@@ -3,6 +3,7 @@
 // Prototype for gcdExtended function to let the program know it exists.
 int gcdExtended(int, int, int *, int *);
 
+// Main function
 int main(void) {
   int a, b, x, y, integerOne, integerTwo;
 
@@ -11,13 +12,14 @@ int main(void) {
     scanf("%d %d", &a, &b);
   } while (a < 0 || b < 0);
 
-  integerOne = a <= b ? a : b;
-  integerTwo = a <= b ? b : a;
+integerOne = a <= b ? a : b;
+integerTwo = a <= b ? b : a;
 
   while(integerOne != 0) {
-    printf("gcd(%d, %d) = %d\n", integerOne, b, gcdExtended(integerOne, integerTwo, &x, &y));
+    printf("The greatest common divisor of %d and %d is %d\n", integerOne, b, gcdExtended(integerOne, integerTwo, &x, &y));
     integerOne -= 1;
   }
+
   return 0;
 }
 

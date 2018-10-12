@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d21e174-157d-4552-b057-99f46ba3763a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO3/.idea/dictionaries/matth.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/functions.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/.idea/O4_2_DividerbareMedSammeTal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/3.12.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/3.12.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/3.12.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/O4_2_DividerbareMedSammeTal.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/O4_2_DividerbareMedSammeTal.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/O4_2_DividerbareMedSammeTal.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/O4_2_DividerbareMedSammeTal/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/.idea/S267_PO1_ProgramSegment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/3.12.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/3.12.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/3.12.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/S267_PO1_ProgramSegment.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/S267_PO1_ProgramSegment.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/S267_PO1_ProgramSegment.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S267_PO1_ProgramSegment/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/.idea/S281_PO1_AnnualPopulation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/3.12.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/3.12.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/3.12.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/S281_PO1_AnnualPopulation.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/S281_PO1_AnnualPopulation.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/S281_PO1_AnnualPopulation.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IMPR04/S281_PO1_AnnualPopulation/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/AO2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/AO2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/AO2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/AO2.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO2/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/AO3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/AO3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/AO3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/AO3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/AO3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/AO3.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/AO3.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/AO3.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/AO3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/AO3.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AO3/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../AO3/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/ExampleProgramKurt.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/ExampleProgramKurt.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/ExampleProgramKurt.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/ExampleProgramKurt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/ExampleProgramKurt.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../IMPR03/TrekantKurtForsat/main.c" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-935960981">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d21e174-157d-4552-b057-99f46ba3763a" name="Default Changelist" comment="" />
+      <created>1539345280659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539345280659</updated>
+      <workItem from="1539345282184" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
