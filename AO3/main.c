@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main(void) {
-  int i, j, small, large, remainder;
+  int integerOne, integerTwo, small, large, remainder;
 
   while (1) {
     printf("Enter two non-negative integers:\n ");
-    scanf("%d %d", &i, &j);
+    scanf("%d %d", &integerOne, &integerTwo);
 
-    if (i <= 0 || j <= 0) {
+    if (integerOne <= 0 || integerTwo <= 0) {
       return 0;
     }
 
-    small = i <= j ? i : j;
-    large = i <= j ? j : i;
+    small = integerOne <= integerTwo ? integerOne : integerTwo;
+    large = integerOne <= integerTwo ? integerTwo : integerOne;
 
     while (small > 0) {
       remainder = large % small;
@@ -20,6 +20,6 @@ int main(void) {
       small = remainder;
     }
 
-    printf("GCD of %d and %d is %d\n\n", i, j, large);
+    printf("GCD of %d and %d is %d\n\n", integerOne, integerTwo, large);
   }
 }
