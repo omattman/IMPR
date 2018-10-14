@@ -1,0 +1,3 @@
+C:/AAU/IMPR/IMPR06/O6_1_CelciusToFahrenheit/cmake-build-debug/CMakeFiles/O6_1_CelciusToFahrenheit.dir
+C:/AAU/IMPR/IMPR06/O6_1_CelciusToFahrenheit/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/AAU/IMPR/IMPR06/O6_1_CelciusToFahrenheit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
