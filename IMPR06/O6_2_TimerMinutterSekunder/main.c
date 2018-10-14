@@ -1,45 +1,42 @@
+/*
+ * Vi har på et tidligt tidspunkt i kurset skrevet et program, som omregner et antal sekunder til timer,
+ * minutter og sekunder efter de sædvanlige principper.
+ *
+ * Skriv nu en funktion, hours_minutes_seconds, som tager antal af sekunder som en input parameter, og som
+ * returnerer de tre outputs (timer, minutter og sekunder) som output parametre (pointere, call-by-reference).
+ */
+
 #include <stdio.h>
 
-int *hours_minutes_seconds(int *);
+// Declare symbolic constants
+#define SEC_IN_HOUR 3600
+#define SEC_IN_MINUTE 60
 
+// Prototype declaration
+void hours_minutes_seconds(int, int*, int*, int*);
+
+// Main function
 int main(void) {
-  // Declare symbolic constants
-  #define SEC_IN_WEEK 604800
-  #define SEC_IN_DAY 86400
-  #define SEC_IN_HOUR 3600
-  #define SEC_IN_MINUTE 60
-
-  // Initialize variables
   int amountInput,
-      amountWeeks,
-      amountDays,
       amountHours,
       amountMinutes,
       amountSeconds;
 
-  // Prompt user for random number
-  // Assign value to variable
   printf("Enter a random number of seconds: ");
   scanf("%d", &amountInput);
 
-  // Calculate remainder of all instances
-  amountWeeks = amountInput / SEC_IN_WEEK;
-  amountDays = amountInput % SEC_IN_WEEK / SEC_IN_DAY;
-  amountHours = amountInput % SEC_IN_WEEK % SEC_IN_DAY / SEC_IN_HOUR;
-  amountMinutes = amountInput % SEC_IN_WEEK % SEC_IN_DAY % SEC_IN_HOUR / SEC_IN_MINUTE;
-  amountSeconds = amountInput % SEC_IN_WEEK % SEC_IN_DAY % SEC_IN_HOUR % SEC_IN_MINUTE;
+  hours_minutes_seconds(amountInput, &amountHours, &amountMinutes, &amountSeconds);
 
   // Output results
-  printf("%d sekunder er det samme som %d uger, %d dage, %d timer, %d minutter og %d sekunder.",
-         amountInput, amountWeeks, amountDays, amountHours, amountMinutes, amountSeconds);
+  printf("%d sekunder er det samme som %d timer %d minutter og %d sekunder.",
+         amountInput, amountHours, amountMinutes, amountSeconds);
 
   return 0;
 }
 
-int *hours_minutes_seconds(int *amountInput) {
-  amountWeeks = amountInput / SEC_IN_WEEK;
-  amountDays = amountInput % SEC_IN_WEEK / SEC_IN_DAY;
-  amountHours = amountInput % SEC_IN_WEEK % SEC_IN_DAY / SEC_IN_HOUR;
-  amountMinutes = amountInput % SEC_IN_WEEK % SEC_IN_DAY % SEC_IN_HOUR / SEC_IN_MINUTE;
-  amountSeconds = amountInput % SEC_IN_WEEK % SEC_IN_DAY % SEC_IN_HOUR % SEC_IN_MINUTE;
+// Calculation & remainders for hours, minutes and remainder.
+void hours_minutes_seconds(int amountInput, int *number1, int *number2, int *number3) {
+  *number1 = amountInput / SEC_IN_HOUR;
+  *number2 = amountInput % SEC_IN_HOUR / SEC_IN_MINUTE;
+  *number3 = amountInput % SEC_IN_HOUR % SEC_IN_MINUTE;
 }
