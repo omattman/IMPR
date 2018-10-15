@@ -35,15 +35,11 @@ double solveRootTwo(double a, double b, double c) {
 
 // Print amount of roots
 void solveQuadraticEquation(double a, double b, double c){
-  double discriminant = solveDiscriminant(a, b, c);
-  double rootOne = solveRootOne(a, b, c);
-  double rootTwo = solveRootTwo(a, b, c);
-
-  if (discriminant < 0) {
+  if (solveDiscriminant(a, b, c) < 0) {
     printf("No roots\n");
-  } else if (discriminant == 0) {
-    printf("One root: %f\n", rootOne);
+  } else if (solveDiscriminant(a, b, c) == 0) {
+    printf("One root: %f\n", solveRootOne(a, b, c));
   } else {
-    printf("Two roots: %f and %f", rootOne, rootTwo);
+    printf("Two roots: %f and %f", solveRootOne(a, b, c), solveRootTwo(a, b, c));
   }
 }
