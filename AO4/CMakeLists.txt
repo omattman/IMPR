@@ -3,6 +3,4 @@ project(AO4 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(AO4 main.c
-               disc-root-calculations.c
-               disc-root-calculations.h)
+add_executable(AO4 main.c)

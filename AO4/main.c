@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <math.h>
 
-// .h file for calculation functions of discriminant and roots.
-#include "disc-root-calculations.h"
-
-// Prototype for quadratic equation function
+// Prototypes
 void solveQuadraticEquation(double, double, double);
+double solveDiscriminant(double, double, double);
+double solveRootOne(double, double, double);
+double solveRootTwo(double, double, double);
 
 int main(void) {
   // Declare variables
@@ -30,4 +31,22 @@ void solveQuadraticEquation(double a, double b, double c){
   } else {
     printf("Two roots was found:\nx1 = %.2f and x2 = %.2f", solveRootOne(a, b, c), solveRootTwo(a, b, c));
   }
+}
+
+// Calculate discriminant
+double solveDiscriminant(double a, double b, double c) {
+  double discriminant = b * b - 4 * a * c;
+  return discriminant;
+}
+
+// Find root one of quadratic
+double solveRootOne(double a, double b, double c) {
+  double rootOne = (-b + sqrt(solveDiscriminant(a, b, c)))/(2*a);
+  return rootOne;
+}
+
+// Find root two of quadratic
+double solveRootTwo(double a, double b, double c) {
+  double rootTwo = (-b - sqrt(solveDiscriminant(a, b, c)))/(2*a);
+  return rootTwo;
 }

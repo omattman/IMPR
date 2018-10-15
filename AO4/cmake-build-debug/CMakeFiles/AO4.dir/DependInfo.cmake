@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/AAU/IMPR/AO4/disc-root-calculations.c" "C:/AAU/IMPR/AO4/cmake-build-debug/CMakeFiles/AO4.dir/disc-root-calculations.c.obj"
   "C:/AAU/IMPR/AO4/main.c" "C:/AAU/IMPR/AO4/cmake-build-debug/CMakeFiles/AO4.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
