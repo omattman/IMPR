@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/AAU/IMPR/AO4/disc-root-calculations.c">
+			<Option target="AO4"/>
+		</Unit>
+		<Unit filename="C:/AAU/IMPR/AO4/disc-root-calculations.h">
+			<Option target="AO4"/>
+		</Unit>
 		<Unit filename="C:/AAU/IMPR/AO4/main.c">
 			<Option target="AO4"/>
 		</Unit>

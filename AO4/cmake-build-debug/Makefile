@@ -122,6 +122,33 @@ AO4/fast:
 	$(MAKE) -f CMakeFiles\AO4.dir\build.make CMakeFiles/AO4.dir/build
 .PHONY : AO4/fast
 
+disc-root-calculations.obj: disc-root-calculations.c.obj
+
+.PHONY : disc-root-calculations.obj
+
+# target to build an object file
+disc-root-calculations.c.obj:
+	$(MAKE) -f CMakeFiles\AO4.dir\build.make CMakeFiles/AO4.dir/disc-root-calculations.c.obj
+.PHONY : disc-root-calculations.c.obj
+
+disc-root-calculations.i: disc-root-calculations.c.i
+
+.PHONY : disc-root-calculations.i
+
+# target to preprocess a source file
+disc-root-calculations.c.i:
+	$(MAKE) -f CMakeFiles\AO4.dir\build.make CMakeFiles/AO4.dir/disc-root-calculations.c.i
+.PHONY : disc-root-calculations.c.i
+
+disc-root-calculations.s: disc-root-calculations.c.s
+
+.PHONY : disc-root-calculations.s
+
+# target to generate assembly for a file
+disc-root-calculations.c.s:
+	$(MAKE) -f CMakeFiles\AO4.dir\build.make CMakeFiles/AO4.dir/disc-root-calculations.c.s
+.PHONY : disc-root-calculations.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... AO4
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... disc-root-calculations.obj
+	@echo ... disc-root-calculations.i
+	@echo ... disc-root-calculations.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

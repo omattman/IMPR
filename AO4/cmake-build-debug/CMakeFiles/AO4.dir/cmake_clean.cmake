@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/AO4.dir/main.c.obj"
+  "CMakeFiles/AO4.dir/disc-root-calculations.c.obj"
   "AO4.pdb"
   "AO4.exe"
   "AO4.exe.manifest"

@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
+C:/AAU/IMPR/AO4/disc-root-calculations.h
+
 C:/AAU/IMPR/AO4/main.c
 stdio.h
 -
-math.h
--
+disc-root-calculations.h
+C:/AAU/IMPR/AO4/disc-root-calculations.h
 
