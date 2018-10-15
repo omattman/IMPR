@@ -39,13 +39,13 @@ double solveDiscriminant(double a, double b, double c) {
   return discriminant;
 }
 
-// Find root one of quadratic
+// Find root one of quadratic equation
 double solveRootOne(double a, double b, double c) {
   double rootOne = (-b + sqrt(solveDiscriminant(a, b, c)))/(2*a);
   return rootOne;
 }
 
-// Find root two of quadratic
+// Find root two of quadratic equation
 double solveRootTwo(double a, double b, double c) {
   double rootTwo = (-b - sqrt(solveDiscriminant(a, b, c)))/(2*a);
   return rootTwo;
