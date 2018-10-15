@@ -2,8 +2,8 @@
 #include <math.h>
 
 double solveDiscriminant(double, double, double);
-double solveRootOne(double, double);
-double solveRootTwo(double, double, double, double*, double*);
+double solveRootOne(double, double, double);
+double solveRootTwo(double, double, double);
 void solveQuadraticEquation(double, double, double);
 
 
@@ -12,6 +12,7 @@ int main(void) {
 
   printf("Enter coeficients a, b, and c: ");
   scanf("%lf %lf %lf", &a, &b, &c);
+
   solveQuadraticEquation(a, b, c);
 
   return 0;
@@ -22,26 +23,27 @@ double solveDiscriminant(double a, double b, double c) {
   return discriminant;
 }
 
-double solveRootOne(double a, double b) {
-  double rootOne = -b/(2*a);
+double solveRootOne(double a, double b, double c) {
+  double rootOne = (-b + sqrt(solveDiscriminant(a, b, c)))/(2*a);
   return rootOne;
 }
 
-double solveRootTwo(double a, double b, double c, double *rootOne, double *rootTwo) {
-  *rootOne = (-b + sqrt(solveDiscriminant(a, b, c)))/(2*a);
-  *rootTwo = (-b - sqrt(solveDiscriminant(a, b, c)))/(2*a);
+double solveRootTwo(double a, double b, double c) {
+  double rootTwo = (-b - sqrt(solveDiscriminant(a, b, c)))/(2*a);
+  return rootTwo;
 }
 
-/* Prints roots of the quadratic equation a * x*x + b * x + c = 0 */
+// Print amount of roots
 void solveQuadraticEquation(double a, double b, double c){
-  double rootOne, rootTwo;
+  double discriminant = solveDiscriminant(a, b, c);
+  double rootOne = solveRootOne(a, b, c);
+  double rootTwo = solveRootTwo(a, b, c);
 
-  if (solveDiscriminant(a, b, c) < 0) {
+  if (discriminant < 0) {
     printf("No roots\n");
-  } else if (solveDiscriminant(a, b, c) == 0) {
-    printf("One root: %f\n", solveRootOne(a, b));
+  } else if (discriminant == 0) {
+    printf("One root: %f\n", rootOne);
   } else {
-    solveRootTwo(a, b, c, &rootOne, &rootTwo);
     printf("Two roots: %f and %f", rootOne, rootTwo);
   }
 }
