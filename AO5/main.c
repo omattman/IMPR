@@ -1,8 +1,3 @@
-/*
- * TO DO:
- * Juster if statements til at indeholde "og", hvis der er en mindre værdi af dollar sedler tilgængelige.
- */
-
 #include <stdio.h>
 
 // Declare symbolic constants
