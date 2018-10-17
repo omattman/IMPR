@@ -1,63 +1,65 @@
 #include <stdio.h>
 
-// Declare symbolic constants
+// Declare symbolic constants.
 #define HUNDRED_DOLLAR_BILL 100
 #define FIFTY_DOLLAR_BILL 50
 #define TWENTY_DOLLAR_BILL 20
 #define TEN_DOLLAR_BILL 10
 
-// Prototype declaration
-void change_dollar_bills(int, int*, int*, int*, int*);
+// Prototype declaration.
+void exchangeDollarBills(int, int*, int*, int*, int*);
 
-// Main function
+// Main function.
 int main(void) {
-  int amountInput,
+  int dollarInput,
       hundredBills,
       fiftyBills,
       twentyBills,
       tenBills;
 
-  // Prompt user for value dollar change
-  // Prompt again if amount is not divisible by 10.
+  // Prompt user for value dollar exchange.
+  // Prompt again if input dollars is not divisible by 10.
   do {
-    printf("Enter amount of dollars you want to change:\n ");
-    scanf("%d", &amountInput);
-  } while (amountInput % 10);
+    printf("Enter amount of dollars you wish exchanged:\n ");
+    scanf("%d", &dollarInput);
+  } while (dollarInput % 10);
 
-  // Start print statement
-  printf("%d is changed to: ", amountInput);
+  // Start print statement to show dollar exchange.
+  printf("%d dollars is exchanged to:\n", dollarInput);
 
-  // Call function to assign values to variables
-  change_dollar_bills(amountInput, &hundredBills, &fiftyBills, &twentyBills, &tenBills);
+  // Call function to assign exchanged dollar bills to variables through pointers.
+  exchangeDollarBills(dollarInput, &hundredBills, &fiftyBills, &twentyBills, &tenBills);
 
-  // Check if the correct dollar-values is changeable.
-  if(hundredBills > 0) {
-    (hundredBills > 1) ? printf("%d 100-dollar sedler", hundredBills) : printf("%d 100-dollar seddel", hundredBills);
-    (fiftyBills >= 1 || twentyBills >= 1 || tenBills >= 1) ? printf(", ") : printf("");
-  }
-  if(fiftyBills > 0) {
-    (fiftyBills > 1) ? printf("%d 50-dollar sedler", fiftyBills) : printf("%d 50-dollar seddel", fiftyBills);
-    (twentyBills >= 1 || tenBills >= 1) ? printf(", ") : printf("");
-  }
-  if(twentyBills > 0) {
-    (twentyBills > 1) ? printf("%d 20-dollar sedler", twentyBills) : printf("%d 20-dollar seddel", twentyBills);
-  }
-  if(tenBills > 0) {
-    (hundredBills >= 1 || fiftyBills >= 1 || twentyBills >= 1) ? printf(" og ") : printf("");
-    (tenBills > 1) ? printf("%d 10-dollar sedler", tenBills) : printf("%d 10-dollar seddel", tenBills);
-  }
+  // Check if exchanged dollar bill exists. If it does, then check if multiple or single bill.
+  if(hundredBills > 0)
+    (hundredBills > 1) ? printf("%d one hundred-dollar bills\n", hundredBills) : printf("%d one hundred-dollar bill\n", hundredBills);
+
+  if(fiftyBills > 0)
+    (fiftyBills > 1) ? printf("%d fifty-dollar bills\n", fiftyBills) : printf("%d fifty-dollar bill\n", fiftyBills);
+
+  if(twentyBills > 0)
+    (twentyBills > 1) ? printf("%d twenty-dollar bills\n", twentyBills) : printf("%d twenty-dollar bill\n", twentyBills);
+
+  if(tenBills > 0)
+    (tenBills > 1) ? printf("%d ten-dollar bills\n", tenBills) : printf("%d ten-dollar bill\n", tenBills);
 
   return 0;
 }
 
 /*
  * Calculation to find least amount of dollar-bills possible during exchange.
- * Input parameters: amountInput
- * Output parameters: 100 bills, 50 bills, 20, bills and 10 bills.
+ * Input parameters: amountInput.
+ * Output parameters: exchanged 100 bills, 50 bills, 20, bills and 10 bills.
 */
-void change_dollar_bills(int amountInput, int *number1, int *number2, int *number3, int *number4) {
-  *number1 = amountInput / HUNDRED_DOLLAR_BILL;
-  *number2 = amountInput % HUNDRED_DOLLAR_BILL / FIFTY_DOLLAR_BILL;
-  *number3 = amountInput % HUNDRED_DOLLAR_BILL % FIFTY_DOLLAR_BILL / TWENTY_DOLLAR_BILL;
-  *number4 = amountInput % HUNDRED_DOLLAR_BILL % FIFTY_DOLLAR_BILL % TWENTY_DOLLAR_BILL / TEN_DOLLAR_BILL;
+void exchangeDollarBills(
+    int dollarInput,
+    int *exchangedHundred,
+    int *exchangedFifty,
+    int *exchangedTwenty,
+    int *exchangedTen)
+{
+  *exchangedHundred = dollarInput / HUNDRED_DOLLAR_BILL;
+  *exchangedFifty = dollarInput % HUNDRED_DOLLAR_BILL / FIFTY_DOLLAR_BILL;
+  *exchangedTwenty = dollarInput % HUNDRED_DOLLAR_BILL % FIFTY_DOLLAR_BILL / TWENTY_DOLLAR_BILL;
+  *exchangedTen = dollarInput % HUNDRED_DOLLAR_BILL % FIFTY_DOLLAR_BILL % TWENTY_DOLLAR_BILL / TEN_DOLLAR_BILL;
 }
