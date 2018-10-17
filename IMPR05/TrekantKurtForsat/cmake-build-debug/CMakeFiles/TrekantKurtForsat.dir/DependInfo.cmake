@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/AAU/IMPR/IMPR05/TrekantKurtForsat/functions.c" "C:/AAU/IMPR/IMPR05/TrekantKurtForsat/cmake-build-debug/CMakeFiles/TrekantKurtForsat.dir/functions.c.obj"
   "C:/AAU/IMPR/IMPR05/TrekantKurtForsat/main.c" "C:/AAU/IMPR/IMPR05/TrekantKurtForsat/cmake-build-debug/CMakeFiles/TrekantKurtForsat.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

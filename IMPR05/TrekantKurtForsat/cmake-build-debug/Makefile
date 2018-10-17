@@ -122,6 +122,33 @@ TrekantKurtForsat/fast:
 	$(MAKE) -f CMakeFiles\TrekantKurtForsat.dir\build.make CMakeFiles/TrekantKurtForsat.dir/build
 .PHONY : TrekantKurtForsat/fast
 
+functions.obj: functions.c.obj
+
+.PHONY : functions.obj
+
+# target to build an object file
+functions.c.obj:
+	$(MAKE) -f CMakeFiles\TrekantKurtForsat.dir\build.make CMakeFiles/TrekantKurtForsat.dir/functions.c.obj
+.PHONY : functions.c.obj
+
+functions.i: functions.c.i
+
+.PHONY : functions.i
+
+# target to preprocess a source file
+functions.c.i:
+	$(MAKE) -f CMakeFiles\TrekantKurtForsat.dir\build.make CMakeFiles/TrekantKurtForsat.dir/functions.c.i
+.PHONY : functions.c.i
+
+functions.s: functions.c.s
+
+.PHONY : functions.s
+
+# target to generate assembly for a file
+functions.c.s:
+	$(MAKE) -f CMakeFiles\TrekantKurtForsat.dir\build.make CMakeFiles/TrekantKurtForsat.dir/functions.c.s
+.PHONY : functions.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... TrekantKurtForsat
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... functions.obj
+	@echo ... functions.i
+	@echo ... functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

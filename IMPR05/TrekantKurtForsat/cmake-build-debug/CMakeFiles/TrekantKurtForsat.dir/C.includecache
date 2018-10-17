@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/AAU/IMPR/IMPR05/TrekantKurtForsat/functions.c
+math.h
+-
+functions.h
+C:/AAU/IMPR/IMPR05/TrekantKurtForsat/functions.h
+
+C:/AAU/IMPR/IMPR05/TrekantKurtForsat/functions.h
+
+C:/AAU/IMPR/IMPR05/TrekantKurtForsat/main.c
+stdio.h
+-
+stdlib.h
+-
+functions.h
+C:/AAU/IMPR/IMPR05/TrekantKurtForsat/functions.h
+

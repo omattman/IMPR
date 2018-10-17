@@ -3,4 +3,4 @@ project(TrekantKurtForsat C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(TrekantKurtForsat main.c)
+add_executable(TrekantKurtForsat main.c functions.c functions.h)

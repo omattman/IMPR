@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TrekantKurtForsat.dir/main.c.obj"
+  "CMakeFiles/TrekantKurtForsat.dir/functions.c.obj"
   "TrekantKurtForsat.pdb"
   "TrekantKurtForsat.exe"
   "TrekantKurtForsat.exe.manifest"

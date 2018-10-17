@@ -1,27 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #define CONSTANT_INPUT 1
 
-double area(double, double, double, double, double, double);
-double circumference(double, double, double, double, double, double);
-double side_length(double, double, double, double);
-double square(double);
+#include "functions.h"
 
 int main (void){
-  double p1_x = 0.0, p1_y = 0.0,
-      p2_x = 0.0, p2_y = 0.0,
-      p3_x = 0.0, p3_y = 0.0;
+  double p1_x = 0.0, p1_y = 0.0;
+  double p2_x = 0.0, p2_y = 0.0;
+  double p3_x = 0.0, p3_y = 0.0;
+  double length_p1_p2 = 0.0, length_p2_p3 = 0.0, length_p3_p1 = 0.0;
+  int choice = 0;
+  int is_triangle = 0;
 
-  int choice = 0,
-      is_triangle = 0;
-
-
-  if(CONSTANT_INPUT) {
-    p1_x = 0; p1_y = 0;
-    p2_x = 5; p2_y = 0;
-    p3_x = 0; p3_y = 5;
-  } else {
+  if (CONSTANT_INPUT){
+    p1_x = 0.0; p1_y = 0.0;
+    p2_x = 5.0; p2_y = 0.0;
+    p3_x = 0.0; p3_y = 5.0;
+  }
+  else{
+    /* Enter points */
     printf("Please enter a point:\n");
     scanf(" (%lf , %lf)", &p1_x, &p1_y);
     printf("Point: (%lf, %lf)\n\n", p1_x, p1_y);
@@ -37,47 +34,37 @@ int main (void){
 
   is_triangle = 1;
 
-  if(is_triangle) {
+  if(is_triangle){
 
-    /* Promt for choice */
-    printf("Your choice: Area (1), Circumference (2), Equilateral? (3) \n");
+    printf("Your choice. Area (1), Circumference (2), Equilateral? (3) \n");
     scanf(" %d", &choice);
 
-    switch (choice) {
-      case 1: {
+    switch(choice){
+      case 1:{
+        /* Area */
         printf("Area: %lf\n", area(p1_x, p1_y, p2_x, p2_y, p3_x, p3_y));
         break;
       }
       case 2: {
-        printf("Circumference: %lf and area %lf\n", circumference(p1_x, p1_y, p2_x, p2_y, p3_x, p3_y));
+        /* Circumference */
+        printf("Circumference: %lf\n", circumference(p1_x, p1_y, p2_x, p2_y, p3_x, p3_y));
         break;
       }
       case 3: {
-        int equilateral = 0;
-        printf("The triangle is %s equilateral\n", equilateral ? "" : "NOT");
+        /* Equilateral */
+        int is_equilateral = 0;
+        printf("The triangle is %s equilateral\n", is_equilateral ? "" : "NOT");
+        break;
       }
-      default: {
-        printf("Should not happen. Bye bye\n");
-        exit(EXIT_FAILURE);
-      }
+      default:
+        printf("Should not happen...");
+        break;
     }
-  } else {
-    printf("Not a tringle\n");
+  }
+  else {
+    printf("Not a triangle. Bye\n");
+    exit(EXIT_FAILURE);
   }
 
   return EXIT_SUCCESS;
-}
-
-double area(double p1_x, double p1_y, double p2_x, double p2_y, double p3_x, double p3_y) {
-  double hc = circumference(p1_x, p1_y, p2_x, p2_y, p3_x, p3_y) / 2.0;
-
-  return sqrt(hc * (hc - side_length(p1_x, p1_y, p2_x, p2_y)) * (hc - side_length(p2_x, p2_y, p3_x, p3_y)) * (hc - side_length(p3_x, p3_y, p1_x, p1_y)));
-}
-
-double circumference(double p1_x, double p1_y, double p2_x, double p2_y, double p3_x, double p3_y) {
-  return side_length(p1_x, p1_y, p2_x, p2_y) + side_length(p2_x, p2_y, p3_x, p3_y) + side_length(p3_x, p3_y, p1_x, p1_y);
-}
-
-double side_length(double a_x, double a_y, double b_x, double b_y) {
-  return sqrt(square(a_x - b_x) + square(a_y - b_y));
 }
