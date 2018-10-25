@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/AAU/IMPR/IMPR08/O7_4_IgangMedCUTest/AllTests.c
+stdio.h
+-
+CuTest.h
+C:/AAU/IMPR/IMPR08/O7_4_IgangMedCUTest/CuTest.h
+
+C:/AAU/IMPR/IMPR08/O7_4_IgangMedCUTest/CuTest.h
+setjmp.h
+-
+stdarg.h
+-
+
+C:/AAU/IMPR/IMPR08/O7_4_IgangMedCUTest/StrUtil.c
+stdio.h
+-
+CuTest.h
+C:/AAU/IMPR/IMPR08/O7_4_IgangMedCUTest/CuTest.h
+
+C:/AAU/IMPR/IMPR08/O7_4_IgangMedCUTest/main.c
+stdio.h
+-
+stdlib.h
+-
+CuTest.h
+C:/AAU/IMPR/IMPR08/O7_4_IgangMedCUTest/CuTest.h
+
