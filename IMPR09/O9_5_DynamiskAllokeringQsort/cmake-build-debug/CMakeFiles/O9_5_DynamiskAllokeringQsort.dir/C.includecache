@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/AAU/IMPR/IMPR09/O9_5_DynamiskAllokeringQsort/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+
