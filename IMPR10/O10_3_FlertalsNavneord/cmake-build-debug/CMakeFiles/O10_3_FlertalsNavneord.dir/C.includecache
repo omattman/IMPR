@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/AAU/IMPR/IMPR10/O10_3_FlertalsNavneord/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

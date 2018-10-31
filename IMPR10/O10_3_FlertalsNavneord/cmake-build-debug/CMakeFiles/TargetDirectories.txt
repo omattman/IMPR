@@ -1,0 +1,3 @@
+C:/AAU/IMPR/IMPR10/O10_3_FlertalsNavneord/cmake-build-debug/CMakeFiles/O10_3_FlertalsNavneord.dir
+C:/AAU/IMPR/IMPR10/O10_3_FlertalsNavneord/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/AAU/IMPR/IMPR10/O10_3_FlertalsNavneord/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="LectureProgramming_MatchAndBracket" targetName="LectureProgramming_MatchAndBracket" />
+      <config projectName="O10_3_FlertalsNavneord" targetName="O10_3_FlertalsNavneord" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6062892-c394-4cdf-9496-3f417507f0c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2891e3e6-d665-48cb-bf4d-1756b37b7f2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LectureProgramming_MatchAndBracket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LectureProgramming_MatchAndBracket/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,29 +23,27 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="851776609">
+    <session id="-617642355">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="581" />
+          <entry key="c" value="752" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="581" />
+          <entry key="ObjectiveC" value="752" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -54,10 +52,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+            <state relative-caret-position="272">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#1200#1218#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,20 +112,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LectureProgramming_MatchAndBracket">
+  <component name="RunManager" selected="Application.O10_3_FlertalsNavneord">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LectureProgramming_MatchAndBracket" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LectureProgramming_MatchAndBracket" TARGET_NAME="LectureProgramming_MatchAndBracket" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LectureProgramming_MatchAndBracket" RUN_TARGET_NAME="LectureProgramming_MatchAndBracket">
+    <configuration name="O10_3_FlertalsNavneord" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="O10_3_FlertalsNavneord" TARGET_NAME="O10_3_FlertalsNavneord" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="O10_3_FlertalsNavneord" RUN_TARGET_NAME="O10_3_FlertalsNavneord">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.LectureProgramming_MatchAndBracket" />
+      <item itemvalue="Application.O10_3_FlertalsNavneord" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -135,43 +133,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d6062892-c394-4cdf-9496-3f417507f0c4" name="Default Changelist" comment="" />
-      <created>1540981329200</created>
+      <changelist id="2891e3e6-d665-48cb-bf4d-1756b37b7f2f" name="Default Changelist" comment="" />
+      <created>1540985622960</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540981329200</updated>
-      <workItem from="1540981330523" duration="2282000" />
-      <workItem from="1540985579962" duration="42000" />
+      <updated>1540985622960</updated>
+      <workItem from="1540985624604" duration="5387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2324000" />
+    <option name="totallyTimeSpent" value="5387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32944915" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32944915" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32944915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32944915" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,10 +183,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+        <state relative-caret-position="272">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1200#1218#0" expanded="true" />
           </folding>
         </state>
       </provider>
