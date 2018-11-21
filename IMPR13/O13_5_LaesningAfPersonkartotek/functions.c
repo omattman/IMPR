@@ -92,7 +92,6 @@ void print_all(person all[], int n, char* output_file_name)
 
 /**
  * 1. print_person:         print person city name and last name
- * 2. print_person_full:    print all data belonging to person
  *
  * @param [r] data {struct person} acces all data in struct array
  * @param [r] *fp {FILE} file pointer to read from
@@ -100,12 +99,6 @@ void print_all(person all[], int n, char* output_file_name)
 void print_person(person data, FILE *fp)
 {
     fprintf(fp, "%s: %s\n", data.bynavn, data.efternavn);
-}
-
-void print_person_full(person data, FILE *fp)
-{
-    fprintf(fp, "%s %s, %s %d, %d %s\n",
-            data.efternavn, data.bynavn, data.vejnavn, data.vejnummer, data.postnummer, data.bynavn);
 }
 
 /**
