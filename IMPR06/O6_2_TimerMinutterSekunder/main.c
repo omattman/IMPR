@@ -8,35 +8,42 @@
 
 #include <stdio.h>
 
-// Declare symbolic constants
+/* Declare symbolic constants */
 #define SEC_IN_HOUR 3600
 #define SEC_IN_MINUTE 60
 
-// Prototype declaration
+/* Prototype declaration */
 void hours_minutes_seconds(int, int*, int*, int*);
 
-// Main function
+/* Main function */
 int main(void) {
-  int amountInput,
-      amountHours,
-      amountMinutes,
-      amountSeconds;
+  int amountInput, amountHours, amountMinutes, amountSeconds;
 
   printf("Enter a random number of seconds: ");
   scanf("%d", &amountInput);
 
   hours_minutes_seconds(amountInput, &amountHours, &amountMinutes, &amountSeconds);
 
-  // Output results
-  printf("%d sekunder er det samme som %d timer %d minutter og %d sekunder.",
+  /* Output results */
+  printf("%d sekunder er det samme som %d timer %d minutter og %d sekunder.\n",
          amountInput, amountHours, amountMinutes, amountSeconds);
 
   return 0;
 }
 
-// Calculation & remainders for hours, minutes and remainder.
-void hours_minutes_seconds(int amountInput, int *number1, int *number2, int *number3) {
-  *number1 = amountInput / SEC_IN_HOUR;
-  *number2 = amountInput % SEC_IN_HOUR / SEC_IN_MINUTE;
-  *number3 = amountInput % SEC_IN_HOUR % SEC_IN_MINUTE;
+/**
+ * Find the equivalence of seconds to hours, minutes and seconds
+ *
+ *  @param [r] amountInput {int} Seconds to convert
+ *  @param [w] hours {int *} The remainder of hours
+ *  @param [w] minutes {int *} The remainder of minutes
+ *  @param [w] seconds {int *} The remainder of seconds
+ */
+void hours_minutes_seconds(const int amountInput, int *hours, int *minutes, int *seconds) {
+  int rest;
+
+  *hours = amountInput / SEC_IN_HOUR;
+  rest = amountInput % SEC_IN_HOUR;
+  *minutes = rest / SEC_IN_MINUTE;
+  *seconds = rest % SEC_IN_MINUTE;
 }
