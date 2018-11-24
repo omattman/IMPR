@@ -11,29 +11,30 @@
 
 #include <stdio.h>
 
-double celcToFahr(double *p1);
+double celcToFahr(double celcius_temp, double *fahrenheit_temp);
 
 int main(void){
-  // Declaring variable
-  double amountCelcius = 0.0;
+  /* Variable declaration */
+  double amountCelcius,
+         result;
 
-  // Prompt user for integer
-  // Store integer in amountCelcius
+  /* Prompt user for amount celcius to convert and store in variable. */
   printf("Enter amount of celcius you want converted to fahrenheit:\n");
   scanf("%lf", &amountCelcius);
 
-  /*
-   * Print correct calculation from celcius to fahrenheit.
-   * celcToFahr assigns the address of variable amountCelcius to the
-   * pointer p1 in the celcToFahr function.
-   */
-  printf("%.0f celcius = %6.2f fahrenheit.\n", amountCelcius, celcToFahr(&amountCelcius));
+  /* Print correct calculation from celcius to fahrenheit. */
+  celcToFahr(amountCelcius, &result);
+  printf("%.2lf celcius = %.2lf fahrenheit\n", amountCelcius, result);
 
   return 0;
 }
 
-// Calculation for celcToFahr
-double celcToFahr(double *p1) {
-  return 9.0 / 5.0 * *p1 + 32.0;
+/**
+ * Convert celcius to fahrenheit.
+ *
+ *  @param [r] celcius_temp {const double} Amount of celcius to convert
+ *  @param [w] fahrenheit_temp {double *} The pointer output, which is the conversion
+ */
+double celcToFahr(const double celcius_temp, double *fahrenheit_temp) {
+  *fahrenheit_temp = (9.0 / 5.0) * celcius_temp + 32.0;
 }
-
