@@ -1,39 +1,49 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
-void scan_data(char *, double *);
-void do_next_op(char, double, double *);
+void prompt_for_input(void);
+void scan_data(char *operator, double *operand);
+void do_next_op(const char operator, double operand, double *akkumulator);
+void print_results(double result);
 
 int main(void) {
-  char operator;
-  double operand,
-         akkumulator = 0.0;
+  char operator = '+';
+  double akkumulator = 0.0;
+  double operand;
 
-  scan_data(&operator, &operand);
-  do_next_op(operator, operand, &akkumulator);
+  while(operator != 'q') {
+    prompt_for_input();
+    scan_data(&operator, &operand);
+    if (operator != 'q') {
+      do_next_op(operator, operand, &akkumulator);
+      print_results(akkumulator);
+    }
+  }
+  printf("Final result is: %f\n", akkumulator);
 
-  printf("Result so far is %f", akkumulator);
+  return 0;
+}
 
+void prompt_for_input(void) {
+  printf("Enter operater and operand:\n");
 }
 
 void scan_data(char *operator, double *operand) {
-  printf("Enter operater and operand:\n");
   scanf(" %c %lf", operator, operand);
 }
 
-void do_next_op(char operator, double operand, double *akkumulator) {
-  *akkumulator = 0.0;
+void do_next_op(const char operator, double operand, double *akkumulator) {
   switch (operator) {
-    case '+' :
-      *akkumulator = operand + *akkumulator;
-    case '-' :
-      *akkumulator = operand - *akkumulator;
-    case '*' :
-      *akkumulator = operand * *akkumulator;
-    case '/' :
-      *akkumulator = operand / *akkumulator;
-    case 'q' :
-      printf("%f", akkumulator);
-    default :
-      printf("Invalid operator\n" );
+    case '+': *akkumulator += operand; break;
+    case '-': *akkumulator -= operand; break;
+    case '*': *akkumulator *= operand; break;
+    case '/': *akkumulator /= operand; break;
+    case '^': *akkumulator = pow(*akkumulator, operand); break;
+    default: printf("Error: Unknown operator. Try again. Nothing changed\n");
   }
+}
+
+void print_results(double result) {
+  printf("Result so far is %f.\n", result);
 }
