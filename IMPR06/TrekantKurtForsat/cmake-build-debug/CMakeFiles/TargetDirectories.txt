@@ -1,3 +1,0 @@
-C:/AAU/IMPR/IMPR05/TrekantKurtForsat/cmake-build-debug/CMakeFiles/TrekantKurtForsat.dir
-C:/AAU/IMPR/IMPR05/TrekantKurtForsat/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/AAU/IMPR/IMPR05/TrekantKurtForsat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
