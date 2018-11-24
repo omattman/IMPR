@@ -1,31 +1,27 @@
 #include <stdio.h>
 
-// Declare symbolic constants.
+/* Declare symbolic constants. */
 #define EURO 0.89
 #define KRONER 6.66
 #define RUBLER 66.43
 #define YEN 119.9
 
-// Declare prototypes.
-void valutaConverter(int, double *, double *, double *, double *);
+/* Prototypes. */
+void valutaConverter(const int input, double *convertEuro, double *convertKroner, double *convertRubler, double *convertYen);
 
 int main() {
-  // Declare variables.
-  double euro,
-         kroner,
-         rubler,
-         yen;
+  double euro, kroner, rubler, yen;
 
-  // Convert valutas starting from 1 dollar to 100 dollars.
-  for (int input = 1; input <= 100; ++input) {
+  /* Convert valutas starting from 1 dollar to 100 dollars. */
+  for (int input = 0; input < 100; ++input) {
 
-    // Call valuta converter and assign output values to correct variables.
+    /* Call valuta converter and assign output values to correct variables. */
     valutaConverter(input, &euro, &kroner, &rubler, &yen);
 
-    // Start print statement.
+    /* Start print statement. */
     printf("%d dollars is equal to:\n", input);
 
-    // Print correct conversion.
+    /* Print correct conversion. */
     printf("%.2f Euro\n", euro);
     printf("%.2f Kroner\n", kroner);
     printf("%.2f Rubler\n", rubler);
@@ -35,12 +31,16 @@ int main() {
   return 0;
 }
 
-/*
- * Convert dollars to different valutas
- * input: start from 1 and go to 100 in loop.
- * output: converted Euro, Kroner, Rubler and Yen.
+/**
+ * Exchange n dollars to euro, kroner, rubler and yen.
+ *
+ *  @param [r] input {const int} Dollars to exchange
+ *  @param [w] convertEuro {double *} The equivalent amount to euro
+ *  @param [w] convertKroner {double *} The equivalent amount to kroner
+ *  @param [w] convertRubler {double *} The equivalent amount to rubler
+ *  @param [w] convertYen {double *} The equivalent amount to yen
  */
-void valutaConverter(int input, double *convertEuro, double *convertKroner, double *convertRubler, double *convertYen){
+void valutaConverter(const int input, double *convertEuro, double *convertKroner, double *convertRubler, double *convertYen) {
   *convertEuro = input * EURO;
   *convertKroner = input * KRONER;
   *convertRubler = input * RUBLER;
