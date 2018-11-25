@@ -38,7 +38,7 @@ int main(void){
     printf("%.0lf\n", a[i]);
   }
 
-  free(a);                      /* FREE THE SPACE */
+  free(a);        /* FREE THE SPACE */
 
   return 0;
 }
@@ -47,8 +47,8 @@ int main(void){
 int element_compare(const void *ip1, const void *ip2){
   int result;
 
-  /* Cast parameters to pointers to int */
-  double *ipi1 = (double *)ip1,
+  /* Typecast int inputs to double */
+  double *ipi1 = (double *) ip1,
          *ipi2 = (double *) ip2;
 
   if (*ipi1 < *ipi2)

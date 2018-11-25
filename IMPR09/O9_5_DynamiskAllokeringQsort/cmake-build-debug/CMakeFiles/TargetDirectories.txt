@@ -1,3 +1,0 @@
-C:/AAU/IMPR/IMPR09/O9_5_DynamiskAllokeringQsort/cmake-build-debug/CMakeFiles/O9_5_DynamiskAllokeringQsort.dir
-C:/AAU/IMPR/IMPR09/O9_5_DynamiskAllokeringQsort/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/AAU/IMPR/IMPR09/O9_5_DynamiskAllokeringQsort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
